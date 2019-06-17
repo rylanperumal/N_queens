@@ -8,3 +8,5 @@
 ./serial_tot 12 |& tee -a out.txt;
 ./serial_tot 13 |& tee -a out.txt;
 ./serial_tot 14 |& tee -a out.txt;
+./serial_tot 15 |& tee -a out.txt;
+./serial_tot 16 |& tee -a out.txt;
