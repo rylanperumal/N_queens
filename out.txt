@@ -1,0 +1,135 @@
+ 1  0  0  0  0 
+ 0  0  0  1  0 
+ 0  1  0  0  0 
+ 0  0  0  0  1 
+ 0  0  1  0  0 
+
+Total number of solutions: 10
+
+Running time for placing 5 queens on a 5 x 5 board 0.000188 seconds
+ 0  0  0  1  0  0 
+ 1  0  0  0  0  0 
+ 0  0  0  0  1  0 
+ 0  1  0  0  0  0 
+ 0  0  0  0  0  1 
+ 0  0  1  0  0  0 
+
+Total number of solutions: 4
+
+Running time for placing 6 queens on a 6 x 6 board 0.000296 seconds
+ 1  0  0  0  0  0  0 
+ 0  0  0  0  1  0  0 
+ 0  1  0  0  0  0  0 
+ 0  0  0  0  0  1  0 
+ 0  0  1  0  0  0  0 
+ 0  0  0  0  0  0  1 
+ 0  0  0  1  0  0  0 
+
+Total number of solutions: 40
+
+Running time for placing 7 queens on a 7 x 7 board 0.000172 seconds
+ 1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0 
+ 0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  0  1 
+ 0  1  0  0  0  0  0  0 
+ 0  0  0  1  0  0  0  0 
+ 0  0  0  0  0  1  0  0 
+ 0  0  1  0  0  0  0  0 
+
+Total number of solutions: 92
+
+Running time for placing 8 queens on a 8 x 8 board 0.000553 seconds
+ 1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  1  0  0  0  0 
+ 0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  0  0  1 
+ 0  0  1  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0 
+ 0  0  0  1  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0 
+
+Total number of solutions: 352
+
+Running time for placing 9 queens on a 9 x 9 board 0.002575 seconds
+ 1  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0 
+ 0  1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  1  0  0  0  0 
+ 0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  1 
+ 0  0  0  1  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  1  0  0  0  0  0 
+
+Total number of solutions: 724
+
+Running time for placing 10 queens on a 10 x 10 board 0.011006 seconds
+ 1  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0  0  0 
+ 0  1  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0 
+ 0  0  1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  1  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  1 
+ 0  0  0  0  0  1  0  0  0  0  0 
+
+Total number of solutions: 2680
+
+Running time for placing 11 queens on a 11 x 11 board 0.045193 seconds
+ 1  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0  0 
+ 0  1  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  1 
+ 0  0  1  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0  0 
+ 0  0  0  0  0  1  0  0  0  0  0  0 
+
+Total number of solutions: 14200
+
+Running time for placing 12 queens on a 12 x 12 board 0.208807 seconds
+ 1  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  1  0  0  0  0  0  0  0  0  0 
+ 0  1  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0  0  0 
+ 0  0  1  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  1  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  1 
+ 0  0  0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  0  1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0  0  0 
+
+Total number of solutions: 73712
+
+Running time for placing 13 queens on a 13 x 13 board 1.228956 seconds
+ 1  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  1  0  0  0 
+ 0  1  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0  0  0  0 
+ 0  0  1  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  1  0  0 
+ 0  0  0  1  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  1  0 
+ 0  0  0  0  0  0  0  0  0  1  0  0  0  0 
+ 0  0  0  0  0  1  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  1 
+ 0  0  0  0  1  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  1  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0  0  0  0 
+
+Total number of solutions: 365596
+
+Running time for placing 14 queens on a 14 x 14 board 7.927061 seconds
