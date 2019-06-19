@@ -2,23 +2,34 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
-// #define PRINT
 
+/*
+  Unncomment line 9 below to print solution
+*/
+// #define PRINT
 
 int total_solutions = 0;
 
 // checks if queens attack each other
-bool no_conflicts(int board[], int col){
+bool check_attack(int board[], int col){
   for(int i = 0; i < col; i++){
+    /*
+      This checks to see if there is an already placed queen which blocks
+      the current queen being placed. We only check the row position here since
+      we add queens column wise.
+    */
     if(board[i] == board[col]){
-      // checks the column
       return false;
     }
+    /*
+      This checks to see if the queen being placed is in diagonal conflict
+      with any other queen already on the board.
+    */
     if((abs(board[i] - board[col])) == (col - i)){
-      // checks the diagonal
       return false;
     }
   }
+  // function returns if there are no conflicts
   return true;
 }
 // initializes the board to 0's
@@ -35,6 +46,7 @@ void print_solution(int *solution, int row_board[], int n){
   int i, j;
   // fill in the board
   for(j = 0; j < n; j++){
+    // 1D solution into 2D
     solution[row_board[j] * n + j] = 1;
   }
   // prints the board
@@ -47,9 +59,11 @@ void print_solution(int *solution, int row_board[], int n){
 }
 void n_queens(int board[], int col, int n){
   int i;
-  if(col >= n){
+
+  if(col >= n){ // we have reached a solution
     total_solutions++;
 
+    // prints out the first solution
     if(total_solutions == 1){
       // allocating memory for the array
       int *solution = (int *)malloc(n * n * sizeof(int));
@@ -57,6 +71,7 @@ void n_queens(int board[], int col, int n){
       // here we want to print out the solution in 2D board format
       print_solution(solution, board, n);
     }
+    // prints out all 1D solutions
     #ifdef PRINT
     printf("\n");
     for(i = 0; i < n; i++){
@@ -64,11 +79,15 @@ void n_queens(int board[], int col, int n){
     }
     printf("\n");
     #endif
+
   }else{
+
     for(i = 0; i < n; i++){
+      // trying to place all values from 1 to N in the column
       board[col] = i;
-      if(no_conflicts(board, col)){
-        // here we do the recursion, if the position is valid
+      // this checks to see if the value placed in the column is valid
+      if(check_attack(board, col)){
+        // here we go the the next column if the current column value is valid
         n_queens(board, col + 1, n);
       }
     }
